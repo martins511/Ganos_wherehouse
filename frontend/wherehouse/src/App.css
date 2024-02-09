@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.head{
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    /* margin-bottom: 20px; */
+}
+/* .head::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #555;
+    margin-top: 8px;
+  } */
+
+.supp{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .rowhead th {
+    background-color: #f2f2f2;
+  }
+
+  /* Style the cells for CustomerName and ProductName to be wider */
+  td:nth-child(2), /* ProductName */
+  td:nth-child(6)   /* CustomerName */ {
+    width: 200px; /* Adjust the width as needed */
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #4CAF50; /* Green color, change as needed */
+    color: white;
+  }
+
+  .main-head{
+    position: absolute;
+    right: 200px;
+    top: 80px;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+
+  .create-product-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    display: none;
+    z-index: 1000;
+  }
+  
+  .create-product-dialog.active {
+    display: block;
+  }
+  
+  .head h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .head label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .head input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    text-align: center; /* Adjust the width as needed */
+  }
+  
+  /* Optional: Add some spacing between the heading and the table */
+  .supp {
+    /* margin-top: 5px; */
+    position: relative;
+  }
+
+  
+  .supply{
+        margin-right: 5px; /* Adjust the margin as needed */
+        cursor: pointer;
+}
+.restock{
+    margin-left: 5px;
+}
+
+.adjustment-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50; 
+  color: white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+  
+ 
+}
+
+.supply-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50; 
+  color: white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  
+ 
+}
+
+.product-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4CAF50; 
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  
+ 
+}
+
+.labels{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-right: 0px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0px;
+  }
+  label,input{
+    margin: 25px;
+    font-size: 18px;
+    height: 30px;
+    width: 80%;
+    
+  }
+  input{
+    text-align: center;
+  }
+
+  .stock-head{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 40px;
+  }
+
+  .createproduct-stock-head{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 40px;
+  }
+
+  .actions{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 30px;
+    background-color: cornflowerblue;
+  }
+
+  .createproduct-actions{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 30px;
+    background-color: cornflowerblue;
+  }
+  .actions button{
+    font-weight: bold;
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+  }
+
+  .createproduct-actions button{
+    font-weight: bold;
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+  }
+  .right-btn{
+    margin-right: 75px;
+  }
+
+  .table-btn{
+    margin-right: 50px;
+  }
+
+  .g-t-supply{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .b-to-product{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
